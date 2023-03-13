@@ -1,6 +1,6 @@
 {
   "name": "@hashtags-ai/hashtag-generator",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "An npm package to generate hashtags for you based on the text or image you provide.",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
