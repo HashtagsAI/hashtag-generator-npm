@@ -1,0 +1,34 @@
+{
+  "name": "hashtag-generator",
+  "version": "2.1.0",
+  "description": "An npm package to generate hashtags for you based on the text or image you provide.",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "keywords": [
+    "hashtag",
+    "generator",
+    "npm",
+    "package",
+    "node",
+    "js",
+    "javascript",
+    "image",
+    "text"
+  ],
+  "author": "Mukesh Solanki",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
